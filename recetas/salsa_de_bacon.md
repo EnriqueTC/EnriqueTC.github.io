@@ -2,22 +2,12 @@
 layout: page
 title: Salsa de Bacon
 permalink: /recetas/salsa-de-bacon
+
+ingredients: ingredientes
+steps: pasos
+
 ---
 
-Baconn
-blalbvlblsdbcl gzxclv lzcxv zcxvijagsfduifausedhyfiusd gfuisdgfu sd fsd ug sd u sd fsd f sdhgu+
+{{ layout.ingredients }}
 
-
-safd ad
-a
-
-----------
-f
-as
-fas
-f
-asf
-
-
-
- asdas
+{{ page.ingredients }}
