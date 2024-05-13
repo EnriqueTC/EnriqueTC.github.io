@@ -8,22 +8,19 @@ steps: Pasos
 
 ---
 
-<h2>{{ page.ingredients }}</h2>
+## {{ page.ingredients }}
 
-<ul>
-  <li>Bacon - 5</li>
-  <li>Cebolla - 1/4</li>
-  <li>Maoyonesa</li>
-  <li>Aceite</li>
-  <li>Mostaza</li>
-  <li>Miel o Azúcar</li>
-</ul>
+  *   Bacon - 5
+  *   Cebolla - 1/4
+  *   Maoyonesa
+  *   Aceite
+  *   Mostaza
+  *   Miel o Azúcar
 
-<h2>{{ page.steps }}</h2>
+## {{ page.steps }}
 
-<ol>
-  <li>Cortar en dados o tiras el bacon y la cebolla, hechar a la sartén con un poco de aceite.</li>
-  <li>Una vez este todo dorado, lo añadimos en un bol con mayonesa al gusto.</li>
-  <li>Añadir mostaza y corregir con miel o azúcar.</li>
-  <li>Triturar al gusto.</li>
-</ol>
+
+1.  Cortar en dados o tiras el bacon y la cebolla, hechar a la sartén con un poco de aceite.
+2. Una vez este todo dorado, lo añadimos en un bol con mayonesa al gusto.
+3. Añadir mostaza y corregir con miel o azúcar.
+4. Triturar al gusto.
