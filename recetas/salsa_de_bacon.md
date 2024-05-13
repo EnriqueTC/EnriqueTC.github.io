@@ -8,7 +8,7 @@ steps: Pasos
 
 ---
 
-<h2>{{ layout.ingredients }}</h2>
+<h2>{{ page.ingredients }}</h2>
 
 <ul>
   <li>Bacon - 5</li>
@@ -19,7 +19,7 @@ steps: Pasos
   <li>Miel o Azúcar</li>
 </ul>
 
-<h2>{{ layout.steps }}</h2>
+<h2>{{ page.steps }}</h2>
 
 <ol>
   <li>Cortar en dados o tiras el bacon y la cebolla, hecha a la sartén con un poco de aceite.</li>
