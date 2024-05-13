@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Salsa de Bacon
-permalink: /recetas/salsa-de-bacon
+
 
 ingredients: Ingredientes
 steps: Pasos
@@ -22,7 +22,7 @@ steps: Pasos
 <h2>{{ page.steps }}</h2>
 
 <ol>
-  <li>Cortar en dados o tiras el bacon y la cebolla, hecha a la sartén con un poco de aceite.</li>
+  <li>Cortar en dados o tiras el bacon y la cebolla, hechar a la sartén con un poco de aceite.</li>
   <li>Una vez este todo dorado, lo añadimos en un bol con mayonesa al gusto.</li>
   <li>Añadir mostaza y corregir con miel o azúcar.</li>
   <li>Triturar al gusto.</li>
