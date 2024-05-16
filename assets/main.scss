@@ -1,0 +1,131 @@
+---
+---
+
+@import "minima";
+
+$color-aderezo: #da8c18;
+$color-acompanamiento: #aca90a;
+$color-postre: #0e6ba8;
+$color-principal: #0d9e4f;
+$color-bebida: #e01f96;
+
+.recipe-description {
+    color: #7a7272; 
+    font-size: 15px;
+}
+
+.recipe-information {
+    display: flex; 
+    border: 1px solid #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    div {
+        width: 33.33%; 
+        margin: 0 10px; 
+        text-align: center;
+
+        p {
+            font-weight: bold;
+            display: inline;
+        }
+    }
+    
+}
+
+.aderezo {
+    color: #fff !important;
+    background-color: $color-aderezo;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+}
+
+.acompanamiento {
+    color: #fff !important;
+    background-color: $color-acompanamiento;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+}
+
+.postre {
+    color: #fff !important;
+    background-color: $color-postre;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+}
+
+.principal {
+    color: #fff !important;
+    background-color: $color-principal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+}
+
+.bebida {
+    color: #fff !important;
+    background-color: $color-bebida;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+}
+
+.recipe-list {
+    display: inline;
+    p {
+        display: inline;
+    }
+}
+
+.aderezo-table {
+    color: $color-aderezo !important;
+    background-color: $color-aderezo;
+    border-radius: 30px;
+    height: 25px;
+    width: 25px;
+}
+
+.acompanamiento-table {
+    color: $color-acompanamiento !important;
+    background-color: $color-acompanamiento;
+    border-radius: 30px;
+    height: 25px;
+    width: 25px;
+}
+
+.postre-table {
+    color: $color-postre !important;
+    background-color: $color-postre;
+    border-radius: 30px;
+    height: 25px;
+    width: 25px;
+}
+
+.principal-table {
+    color: $color-principal !important;
+    background-color: $color-principal;
+    border-radius: 30px;
+    height: 25px;
+    width: 25px;
+}
+
+.bebida-table {
+    color: $color-bebida !important;
+    background-color: $color-bebida;
+    border-radius: 30px;
+    height: 25px;
+    width: 25px;
+}

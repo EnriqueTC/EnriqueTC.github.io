@@ -30,12 +30,27 @@ twitter_username: jekyllrb
 github_username:  EnriqueTC
 permalink: /:categories/:title
 
+
 # Build settings
 theme: minima 
 plugins:
   - jekyll-feed
 
 # Theme url: https://github.com/jekyll/minima
+
+# Recipes
+ingredients: Ingredientes
+steps: Pasos
+tiempo: Tiempo
+people: Personas
+quantity: Cantidad
+
+aderezo: Aderezo
+postre: Postre
+acompanamiento: Acompañamiento
+principal: Principal
+bebida: Bebida
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
