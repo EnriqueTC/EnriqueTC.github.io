@@ -11,11 +11,6 @@ recieps-dir: recetas
 
 {%- if titles_size > 0 -%}
 
-    
-
-
-
-
 <table id="example" class="display" style="width:100%">
     <thead>
         <tr>
@@ -53,3 +48,12 @@ recieps-dir: recetas
 </table>
 
 {%- endif -%}
+
+
+<div class="recipe-information">
+    <div><p class="aderezo">{{ site.aderezo }}</p></div>
+    <div><p class="principal">{{ site.principal }}</p></div>
+    <div><p class="acompanamiento">{{ site.acompanamiento }}</p></div>
+    <div><p class="postre">{{ site.postre }}</p></div>
+    <div><p class="bebida">{{ site.bebida }}</p></div>
+</div>

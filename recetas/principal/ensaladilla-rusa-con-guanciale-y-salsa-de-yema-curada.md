@@ -8,9 +8,9 @@ tags: {recipe: true, type: principal, people-quantity: 2, time: 1 hora}
 <p class="recipe-description">La ensaladilla rusa con guanciale y salsa de yema curada es una versión refinada de la receta clásica. Se combina la cremosidad de la ensaladilla con el sabor intenso del guanciale y el toque salado de la salsa de yema curada, creando una experiencia culinaria sofisticada y deliciosa.</p>
 
 <div class="recipe-information">
-  <div><p>{{ site.people }}:</p> {{ page.tags.people-quantity }}</div>
+  <div><p class="{{ page.tags.type }}">{{ site.acompanamiento }}</p></div>
+  <div><p>{{ site.quantity }}:</p> {{ page.tags.people-quantity }}</div>
   <div><p>{{ site.tiempo }}:</p> {{ page.tags.time }}</div>
-  <div><p class="principal">{{ site.principal }}</p></div>
 </div>
 
 ## {{ site.ingredients }}

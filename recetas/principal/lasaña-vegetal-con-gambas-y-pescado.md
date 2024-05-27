@@ -8,9 +8,9 @@ tags: {recipe: true, type: principal, people-quantity: 2, time: 1 hora}
 <p class="recipe-description">La lasaña vegetal con gambas y pescado es una deliciosa combinación de capas de pasta, verduras frescas, gambas y pescado, todo cubierto con salsa de tomate y bechamel. Este plato ofrece un equilibrio perfecto entre sabores marinos y vegetales, ideal para una comida sustanciosa y sabrosa.</p>
 
 <div class="recipe-information">
-  <div><p>{{ site.people }}:</p> {{ page.tags.people-quantity }}</div>
+  <div><p class="{{ page.tags.type }}">{{ site.acompanamiento }}</p></div>
+  <div><p>{{ site.quantity }}:</p> {{ page.tags.people-quantity }}</div>
   <div><p>{{ site.tiempo }}:</p> {{ page.tags.time }}</div>
-  <div><p class="principal">{{ site.principal }}</p></div>
 </div>
 
 ## {{ site.ingredients }}

@@ -8,9 +8,9 @@ tags: {recipe: true, type: aderezo, people-quantity: 6, time: 1 hora}
 <p class="recipe-description">La salsa de curry japonesa es una mezcla de especias aromáticas, como la cúrcuma, comino y jengibre, con una base líquida. Es versátil y se usa para dar sabor a platos como el curry japonés, acompañando arroces, fideos o incluso como aderezo para carnes y vegetales.</p>
 
 <div class="recipe-information">
-  <div><p>{{ site.people }}:</p> {{ page.tags.people-quantity }}</div>
+  <div><p class="{{ page.tags.type }}">{{ site.acompanamiento }}</p></div>
+  <div><p>{{ site.quantity }}:</p> {{ page.tags.people-quantity }}</div>
   <div><p>{{ site.tiempo }}:</p> {{ page.tags.time }}</div>
-  <div><p class="aderezo">{{ site.aderezo }}</p></div>
 </div>
 
 ## {{ site.ingredients }}

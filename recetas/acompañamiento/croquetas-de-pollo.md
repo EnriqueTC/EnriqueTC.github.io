@@ -8,9 +8,9 @@ tags: {recipe: true, type: acompanamiento, people-quantity: 40-50 unidades, time
 <p class="recipe-description">Las croquetas de pollo son un plato popular elaborado con una mezcla cremosa de pollo desmenuzado, combinado con una salsa bechamel, y luego empanizado y frito hasta obtener una textura crujiente por fuera y suave por dentro. Estas deliciosas croquetas son un bocado irresistible y versátil que puede servirse como aperitivo, acompañamiento o plato principal en diversas ocasiones.</p>
 
 <div class="recipe-information">
+  <div><p class="{{ page.tags.type }}">{{ site.acompanamiento }}</p></div>
   <div><p>{{ site.quantity }}:</p> {{ page.tags.people-quantity }}</div>
   <div><p>{{ site.tiempo }}:</p> {{ page.tags.time }}</div>
-  <div><p class="{{ page.tags.type }}">{{ site.acompanamiento }}</p></div>
 </div>
 
 ## {{ site.ingredients }}

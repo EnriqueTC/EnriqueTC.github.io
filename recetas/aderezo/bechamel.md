@@ -8,9 +8,9 @@ tags: {recipe: true, type: aderezo, people-quantity: -, time: 20 min.}
 <p class="recipe-description">La bechamel es una salsa clásica de la cocina francesa, elaborada a base de mantequilla, harina y leche. Es una salsa blanca y cremosa que sirve como base para muchas recetas, como lasañas, croquetas y gratinados, proporcionando una textura suave y un sabor delicado que complementa una amplia variedad de platos.</p>
 
 <div class="recipe-information">
+  <div><p class="{{ page.tags.type }}">{{ site.acompanamiento }}</p></div>
   <div><p>{{ site.quantity }}:</p> {{ page.tags.people-quantity }}</div>
   <div><p>{{ site.tiempo }}:</p> {{ page.tags.time }}</div>
-  <div><p class="aderezo">{{ site.aderezo }}</p></div>
 </div>
 
 ## {{ site.ingredients }}
