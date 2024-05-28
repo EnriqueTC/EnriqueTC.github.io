@@ -14,8 +14,8 @@ recieps-dir: recetas
 <table id="example" class="display" style="width:100%">
     <thead>
         <tr>
-            <th>Plato</th>
             <th>Tipo</th>
+            <th>Plato</th>
             <th>Tiempo</th>
             <th>Personas/Cantidad</th>
         </tr>

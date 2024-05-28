@@ -2,7 +2,7 @@
 layout: page
 title: Brownie
 
-tags: {recipe: true, type: postre, people-quantity: 1, time: 30 min.}
+tags: {recipe: true, type: postre, people-quantity: 1 unidad, time: 30 min.}
 ---
 
 <p class="recipe-description">El brownie es un postre estadounidense, denso y húmedo, hecho con chocolate, mantequilla, azúcar, huevos y harina. Su textura es crujiente por fuera y suave por dentro, a menudo con nueces o trozos de chocolate. Se hornea en una bandeja y se corta en porciones cuadradas.</p>
