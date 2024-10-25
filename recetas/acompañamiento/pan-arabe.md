@@ -2,13 +2,13 @@
 layout: page
 title: Pan arabe
 
-tags: {recipe: true, type: acompanamiento, people-quantity: 8 unidades, time: 30 min. + reposo}
+tags: {recipe: true, type: Acompanamiento, people-quantity: 8 unidades, time: 30 min. + reposo, punctuation: -}
 ---
 
 <p class="recipe-description">El pan árabe, o pan de pita, es un pan plano y redondo de origen mediterráneo y del Medio Oriente. Hecho con harina, agua, levadura y sal, se infla al cocinarse, creando un bolsillo interior ideal para rellenar con carnes, verduras y salsas. Es ligero, suave y versátil, perfecto para acompañar cualquier comida.</p>
 
 <div class="recipe-information">
-  <div><p class="{{ page.tags.type }}">{{ site.acompanamiento }}</p></div>
+  <div><p class="{{ page.tags.type }}">{{ page.tags.type }}</p></div>
   <div><p>{{ site.quantity }}:</p> {{ page.tags.people-quantity }}</div>
   <div><p>{{ site.tiempo }}:</p> {{ page.tags.time }}</div>
 </div>

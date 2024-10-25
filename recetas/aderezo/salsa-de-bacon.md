@@ -2,13 +2,13 @@
 layout: page
 title: Salsa de bacon
 
-tags: {recipe: true, type: aderezo, people-quantity: 3 personas, time: 15 min.}
+tags: {recipe: true, type: Aderezo, people-quantity: 3 personas, time: 15 min., punctuation: 4}
 ---
 
 <p class="recipe-description">La salsa de bacon es una mezcla deliciosa y sabrosa elaborada con bacon, cebolla, mayonesa, aceite, mostaza y un toque de miel o azúcar. Con su combinación única de ingredientes, esta salsa agrega un sabor ahumado y dulce a cualquier plato que acompañe, sobretodo es ideal para hamburguesas.</p>
 
 <div class="recipe-information">
-  <div><p class="{{ page.tags.type }}">{{ site.acompanamiento }}</p></div>
+  <div><p class="{{ page.tags.type }}">{{ page.tags.type }}</p></div>
   <div><p>{{ site.quantity }}:</p> {{ page.tags.people-quantity }}</div>
   <div><p>{{ site.tiempo }}:</p> {{ page.tags.time }}</div>
 </div>

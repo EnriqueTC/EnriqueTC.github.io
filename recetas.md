@@ -18,6 +18,7 @@ recieps-dir: recetas
             <th>Plato</th>
             <th>Tiempo</th>
             <th>Personas/Cantidad</th>
+            <th>Puntuación</th>
         </tr>
     </thead>
     <tbody>
@@ -31,6 +32,7 @@ recieps-dir: recetas
                         <td><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></td>
                         <td>{{ my_page.tags.time | escape }}</td>
                         <td>{{ my_page.tags.people-quantity | escape }}</td>
+                        <td>{{ my_page.tags.punctuation | escape }}</td>
                     </tr>
                 {%- endif -%}
             {%- endif -%}
@@ -39,10 +41,11 @@ recieps-dir: recetas
     </tbody>
     <tfoot>
         <tr>
-            <th>Plato</th>
             <th>Tipo</th>
+            <th>Plato</th>
             <th>Tiempo</th>
             <th>Personas/Cantidad</th>
+            <th>Puntuación</th>
         </tr>
     </tfoot>
 </table>
@@ -51,9 +54,9 @@ recieps-dir: recetas
 
 
 <div class="recipe-information">
-    <div><p class="aderezo">{{ site.aderezo }}</p></div>
-    <div><p class="principal">{{ site.principal }}</p></div>
-    <div><p class="acompanamiento">{{ site.acompanamiento }}</p></div>
-    <div><p class="postre">{{ site.postre }}</p></div>
-    <div><p class="bebida">{{ site.bebida }}</p></div>
+    <div><p class="Aderezo">{{ site.aderezo }}</p></div>
+    <div><p class="Principal">{{ site.principal }}</p></div>
+    <div><p class="Acompanamiento">{{ site.acompanamiento }}</p></div>
+    <div><p class="Postre">{{ site.postre }}</p></div>
+    <div><p class="Bebida">{{ site.bebida }}</p></div>
 </div>
