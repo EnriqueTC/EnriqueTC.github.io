@@ -35,7 +35,7 @@ tags: { recipe: true, type: Aderezo, people-quantity: 6 personas, time: 1 hora, 
 3. Añadir la manzana rallada una vez que las cebollas estén caramelizadas, junto con el kétchup.
 4. Sofreír durante unos 3 minutos.
 5. Agregar la mantequilla.
-6. Una vez derretida, añadir la harina y mezclar.
+6. Una vez derretida, añadir la harina y el curry y mezclar.
 7. Cocinar durante unos 2 minutos.
 8. Añadir el caldo mientras se continúa removiendo.
 9. Cuando esté integrado, agregar salsa inglesa, salsa de soja y sal.
