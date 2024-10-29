@@ -5,7 +5,7 @@ title: Palitos de garbanzos
 tags: { recipe: true, type: Acompanamiento, people-quantity: 20 unidades, time: 20 min., punctuation: 3 }
 ---
 
-<p class="recipe-description"></p>
+<p class="recipe-description">Los palitos de garbanzo son un snack saludable y crujiente, ideal para disfrutar entre comidas. Elaborados con una base de garbanzos triturados, huevo, limón y especias al gusto, se moldean en forma de palitos y se cubren con semillas de sésamo antes de hornearse. Con una textura dorada por fuera y suave por dentro, son una opción deliciosa y nutritiva, rica en proteínas y fibra, perfecta para acompañar salsas o como un bocadillo ligero.</p>
 
 <div class="recipe-information">
     <div><p class="{{ page.tags.type }}">{{ page.tags.type }}</p></div>
