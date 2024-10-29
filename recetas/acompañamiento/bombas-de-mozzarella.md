@@ -2,26 +2,27 @@
 layout: page
 title: Bombas de mozarella
 
-tags: {recipe: true, type: Acompanamiento, people-quantity: 12 unidades, time: 30 min., punctuation: 4.5}
+tags: { recipe: true, type: Acompanamiento, people-quantity: 12 unidades, time: 30 min., punctuation: 4.5 }
 ---
 
 <p class="recipe-description">Las bombas de mozzarella son bocados crujientes rellenos de queso, envueltos en lonchas de jamón serrano y fritos hasta dorarse. Se sirven con una salsa de mayonesa y mostaza para un toque extra de sabor. Son una delicia indulgente para cualquier ocasión.</p>
 
 <div class="recipe-information">
-  <div><p class="{{ page.tags.type }}">{{ page.tags.type }}</p></div>
-  <div><p>{{ site.quantity }}:</p> {{ page.tags.people-quantity }}</div>
-  <div><p>{{ site.tiempo }}:</p> {{ page.tags.time }}</div>
+    <div><p class="{{ page.tags.type }}">{{ page.tags.type }}</p></div>
+    <div><p>{{ site.quantity }}:</p> {{ page.tags.people-quantity }}</div>
+    <div><p>{{ site.tiempo }}:</p> {{ page.tags.time }}</div>
+    <div><p>{{ site.punctuation }}:</p> {{ page.tags.punctuation }}</div>
 </div>
 
 ## {{ site.ingredients }}
 
-  *   Mozarella - 3 bolsas
-  *   Parmesano rallado - 100g (aproximadamente)
-  *   Huevo - 2
-  *   Jamón serrano - 16 lonchas
-  *   Pan rallado
-  *   Mayonesa
-  *   Mostaza
+* Mozarella - 3 bolsas
+* Parmesano rallado - 100g (aproximadamente)
+* Huevo - 2
+* Jamón serrano - 16 lonchas
+* Pan rallado
+* Mayonesa
+* Mostaza
 
 ## {{ site.steps }}
 

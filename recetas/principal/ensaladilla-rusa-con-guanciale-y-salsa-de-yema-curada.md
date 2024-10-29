@@ -2,29 +2,30 @@
 layout: page
 title: Ensaladilla rusa con guanciale y salsa de yema curada
 
-tags: {recipe: true, type: Principal, people-quantity: 2 personas, time: 1 hora, punctuation: 5}
+tags: { recipe: true, type: Principal, people-quantity: 2 personas, time: 1 hora, punctuation: 5 }
 ---
 
 <p class="recipe-description">La ensaladilla rusa con guanciale y salsa de yema curada es una versión refinada de la receta clásica. Se combina la cremosidad de la ensaladilla con el sabor intenso del guanciale y el toque salado de la salsa de yema curada, creando una experiencia culinaria sofisticada y deliciosa.</p>
 
 <div class="recipe-information">
-  <div><p class="{{ page.tags.type }}">{{ page.tags.type }}</p></div>
-  <div><p>{{ site.quantity }}:</p> {{ page.tags.people-quantity }}</div>
-  <div><p>{{ site.tiempo }}:</p> {{ page.tags.time }}</div>
+    <div><p class="{{ page.tags.type }}">{{ page.tags.type }}</p></div>
+    <div><p>{{ site.quantity }}:</p> {{ page.tags.people-quantity }}</div>
+    <div><p>{{ site.tiempo }}:</p> {{ page.tags.time }}</div>
+    <div><p>{{ site.punctuation }}:</p> {{ page.tags.punctuation }}</div>
 </div>
 
 ## {{ site.ingredients }}
 
-  *   Patata - 2
-  *   Zanahoria - 3
-  *   Guanciale - 100g
-  *   Guisantes(opcional)
-  *   Maoyonesa - 200ml
-  *   Mostaza - 1 cuchara de postre
-  *   Pepinillo- 3 o 4
-  *   Yema de huevo - 3
-  *   Salsa de soja - 100ml
-  *   Mantequilla - 50g
+* Patata - 2
+* Zanahoria - 3
+* Guanciale - 100g
+* Guisantes(opcional)
+* Maoyonesa - 200ml
+* Mostaza - 1 cuchara de postre
+* Pepinillo- 3 o 4
+* Yema de huevo - 3
+* Salsa de soja - 100ml
+* Mantequilla - 50g
 
 ## {{ site.steps }}
 

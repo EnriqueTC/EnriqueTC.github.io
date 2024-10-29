@@ -2,26 +2,27 @@
 layout: page
 title: Crep de zanahoria
 
-tags: {recipe: true, type: Principal, people-quantity: 1 persona, time: 30 min., punctuation: -}
+tags: { recipe: true, type: Principal, people-quantity: 1 persona, time: 30 min., punctuation: 2 }
 ---
 
 <p class="recipe-description">Una crepe de zanahoria es una preparación salada que combina zanahorias ralladas, huevos, queso y una proteína como carne picada, pollo o pavo. Se cocina en una sartén con aceite y se sazona con sal y pimienta, resultando en una crepe nutritiva y sabrosa. Ideal para una comida ligera pero completa.</p>
 
 <div class="recipe-information">
-  <div><p class="{{ page.tags.type }}">{{ page.tags.type }}</p></div>
-  <div><p>{{ site.quantity }}:</p> {{ page.tags.people-quantity }}</div>
-  <div><p>{{ site.tiempo }}:</p> {{ page.tags.time }}</div>
+<div><p class="{{ page.tags.type }}">{{ page.tags.type }}</p></div>
+<div><p>{{ site.quantity }}:</p> {{ page.tags.people-quantity }}</div>
+<div><p>{{ site.tiempo }}:</p> {{ page.tags.time }}</div>
+<div><p>{{ site.punctuation }}:</p> {{ page.tags.punctuation }}</div>
 </div>
 
 ## {{ site.ingredients }}
 
-  *   Zanahoria - 2
-  *   Huevo - 2
-  *   Queso
-  *   Proteína (carna picada, pollo, pavo,...)
-  *   Aceite
-  *   Sal
-  *   Pimienta
+* Zanahoria - 2
+* Huevo - 2
+* Queso
+* Proteína (carna picada, pollo, pavo,...)
+* Aceite
+* Sal
+* Pimienta
 
 ## {{ site.steps }}
 
