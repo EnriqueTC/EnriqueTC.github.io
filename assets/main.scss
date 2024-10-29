@@ -8,6 +8,8 @@ $color-acompanamiento: #0fc7e7;
 $color-postre: #98289c;
 $color-principal: #158f15;
 $color-bebida: #e01f96;
+$color-desayuno: #e0731f;
+
 
 .recipe-description {
     color: #7a7272; 
@@ -83,6 +85,16 @@ $color-bebida: #e01f96;
     border-radius: 6px;
 }
 
+.Desayuno {
+    color: #fff !important;
+    background-color: $color-desayuno;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+}
+
 .recipe-list {
     display: inline;
     p {
@@ -125,6 +137,14 @@ $color-bebida: #e01f96;
 .Bebida-table {
     color: $color-bebida !important;
     background-color: $color-bebida;
+    border-radius: 30px;
+    height: 25px;
+    width: 25px;
+}
+
+.Desayuno-table {
+    color: $color-desayuno !important;
+    background-color: $color-desayuno;
     border-radius: 30px;
     height: 25px;
     width: 25px;

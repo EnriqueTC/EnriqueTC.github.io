@@ -59,4 +59,5 @@ recieps-dir: recetas
     <div><p class="Acompanamiento">{{ site.acompanamiento }}</p></div>
     <div><p class="Postre">{{ site.postre }}</p></div>
     <div><p class="Bebida">{{ site.bebida }}</p></div>
+    <div><p class="Desayuno">{{ site.desayuno }}</p></div>
 </div>
