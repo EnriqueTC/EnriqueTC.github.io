@@ -5,7 +5,7 @@ title: Croquetas de dátil y bacon
 tags: { recipe: true, type: Acompanamiento, people-quantity: 15-20 unidades, time: 1h + 1 día de reposo, punctuation: 5🏆 }
 ---
 
-<p class="recipe-description">Las croquetas de bacalao son un plato popular elaborado con una mezcla cremosa de bacalao, combinado con una salsa bechamel, y luego empanizado y frito hasta obtener una textura crujiente por fuera y suave por dentro. Estas deliciosas croquetas son un bocado irresistible y versátil que puede servirse como aperitivo, acompañamiento o plato principal en diversas ocasiones.</p>
+<p class="recipe-description">Las croquetas de dátil con bacon son una combinación única de sabores dulces y salados en un bocado cremoso y crujiente. Hechas con una suave bechamel de cebolla, mantequilla, harina y leche, llevan trocitos de bacon dorado y dátiles, que aportan un toque dulce que contrasta deliciosamente con el sabor salado del bacon. Estas croquetas son ideales como aperitivo o snack, ofreciendo una textura crujiente por fuera y un relleno suave y sabroso por dentro.</p>
 
 <div class="recipe-information">
    <div><p class="{{ page.tags.type }}">{{ page.tags.type }}</p></div>
